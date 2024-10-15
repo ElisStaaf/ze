@@ -25,4 +25,8 @@ install ZE as a binary:
 ```bash
 sudo make install
 ```
-Then you can, well, use the editor.
+Then you can open the explorer by opening the explorer:
+```bash
+ze
+```
+Well so uhh... Enjoy the explorer!

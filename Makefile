@@ -3,4 +3,4 @@ SOURCE=ze.c
 BINARY=/usr/bin/ze
 
 install:
-  $(CC) -o ${BINARY} ${SOURCE}
+	$(CC) -o ${BINARY} ${SOURCE}

@@ -37,7 +37,8 @@ ze
 Project layout
 --------------
 ```
-├── ze.c            Source code
+├── src/            Source code
+│   └── ze.c        Source file
 ├── LICENSE         License for source
 ├── Makefile        Makefile for installation
 ├── .gitignore      Ignoring unwanted garbage

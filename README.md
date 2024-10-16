@@ -15,18 +15,40 @@ Install
 To install, simply:
 ```bash
 # Git
-git clone https://github.com/ElisStaaf/ze
+git clone https://github.com/ElisStaaf/ze ~/ze
 
 # Gh
-gh repo clone ElisStaaf/ze
+gh repo clone ElisStaaf/ze ~/ze
 ```
 You could maybe install with cURL, but why bother? Because you *do* have git on your system, yes? Well, anyways, then you need to
-install ZE as a binary:
+install ZE as a binary, you would do this by using make:
 ```bash
+cd ~/ze
 sudo make install
 ```
-Then you can open the explorer by opening the explorer:
+You can delete the ~/ze directory at this point. Anyway, you can now open the explorer by using the `ze` command in your shell:
 ```bash
 ze
 ```
-Well so uhh... Enjoy the explorer!
+
+Project layout
+--------------
+├── ze.c       Source code
+├── LICENSE    License for source
+├── Makefile   Makefile for installation
+└── README.md  README for info
+
+How to use
+-----------
+When ZE is opened, you will be greeted with the classic `%` prompt. It operates by using "keys" for controlling the file system.
+These are the keys and their respective commands:
+* 1: View files
+* 2: Change directory
+* 3: Create file
+* 4: Delete file
+* 5: Run custom command
+* 6: Exit explorer
+With some commands, you will be asked for further input. That's when the `>` prompt appears. If you get an error, it will
+be prefixed with `[ERROR]:`.  
+  
+So yeah, enjoy the project!

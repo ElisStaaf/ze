@@ -57,6 +57,6 @@ These are the keys and their respective commands:
 * 5: Run custom command
 * 6: Exit explorer
 With some commands, you will be asked for further input. That's when the `>` prompt appears. If you get an error, it will
-be prefixed with `[ERROR]:`.  
+be prefixed with `[ERROR]:` & if an info message appears, it will be prefixed with `[INFO]:`.  
   
 So yeah, enjoy the project!

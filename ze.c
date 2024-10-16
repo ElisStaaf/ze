@@ -19,9 +19,6 @@ void listFiles(const char *path) {
         return;
     }
 
-    printf("\nContents of %s:\n", path);
-    printf("----------------------------\n");
-    /* Read and print all files and directories within the directory */
     while ((de = readdir(dr)) != NULL)
         printf("%s\n", de->d_name);
 

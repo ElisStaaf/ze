@@ -19,9 +19,11 @@ git clone https://github.com/ElisStaaf/ze ~/ze
 
 # Gh
 gh repo clone ElisStaaf/ze ~/ze
+
+# cURL
+curl https://github.com/ElisStaaf/ze/blob/main/{ze.c,LICENSE,README.md,Makefile,.gitignore,.gitattributes} ~/ze
 ```
-You could maybe install with cURL, but why bother? Because you *do* have git on your system, yes? Well, anyways, then you need to
-install ZE as a binary, you would do this by using make:
+After installing it in the ~/ze directory, enter and make an install to your system:
 ```bash
 cd ~/ze
 sudo make install

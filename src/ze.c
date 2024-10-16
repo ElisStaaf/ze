@@ -71,6 +71,8 @@ int main(int argc, char *argv[]) {
                 path[strcspn(path, "\n")] = 0; /* Remove the newline character */
                 if (chdir(path) != 0) {
                     printf("%s[ERROR]: Could not change directory to %s%s\n", red, path, blue);
+                } else {
+                    printf("%s[INFO]: Successfully changed directory to %s%s\n", green, path, blue);
                 }
                 break;
 
@@ -82,6 +84,8 @@ int main(int argc, char *argv[]) {
                 FILE *fp = fopen(filename, "w");
                 if (!fp) {
                     printf("%s[ERROR]: Could not create the file %s%s\n", red, filename, blue);
+                } else {
+                    printf("%s[INFO]: Successfully created file %s%s\n", green, filename, blue);
                 }
                 break;
 
@@ -92,6 +96,8 @@ int main(int argc, char *argv[]) {
                 filename[strcspn(filename, "\n")] = 0; /* Remove the newline character */
                 if (remove(filename) != 0) {
                     printf("%s[ERROR]: File \"%s\" couldn't be deleted%s\n", red, filename, blue);
+                } else {
+                    printf("%s[INFO]: Successfully removed %s%s\n", green, filename, blue);
                 }
                 break;
 
@@ -105,6 +111,7 @@ int main(int argc, char *argv[]) {
 
             case 6:
                 /* Exit the program */
+                printf("%s[INFO]: Exiting...%s\n", green, blue);
                 exit(0);
 
             default:

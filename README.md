@@ -34,10 +34,12 @@ ze
 Project layout
 --------------
 ```
-├── ze.c       Source code
-├── LICENSE    License for source
-├── Makefile   Makefile for installation
-└── README.md  README for info
+├── ze.c            Source code
+├── LICENSE         License for source
+├── Makefile        Makefile for installation
+├── .gitignore      Ignoring unwanted garbage
+├── .gitattributes  Giving git attributes (duh)
+└── README.md       README for info
 ```
 
 How to use

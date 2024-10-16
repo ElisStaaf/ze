@@ -50,7 +50,6 @@ int main() {
         printf("%s| %s1. View files%s                   |\n", blue, green, blue);
         printf("%s| %s2. Change directory%s             |\n", blue, green, blue);
         printf("%s| %s3. Create file%s                  |\n", blue, green, blue);
-        printf("%s| %s3. Open file%s                    |\n", blue, green, blue);
         printf("%s| %s4. Delete file%s                  |\n", blue, green, blue);
         printf("%s| %s5. Run custom command%s           |\n", blue, green, blue);
         printf("%s| %s6. Exit%s                         |\n", blue, red, blue);
@@ -90,13 +89,6 @@ int main() {
                 break;
 
             case 4:
-                char file[256];
-                printf("%s>%s ", purple, blue);
-                scanf("%s" &file);
-                system("$EDITOR %s", file);
-                break;
-
-            case 5:
                 // Delete an existing file
                 printf("%s>%s ", purple, blue);
                 fgets(filename, sizeof(filename), stdin);
@@ -106,14 +98,15 @@ int main() {
                 }
                 break;
 
-            case 6:
+            case 5:
+                // Run a custom command
                 printf("%s>%s ", purple, blue);
                 char cmd[256];
                 scanf("%s", &cmd);
                 system(cmd);
                 break;
 
-            case 7:
+            case 6:
                 // Exit the program
                 exit(0);
 

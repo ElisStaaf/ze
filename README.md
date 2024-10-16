@@ -33,10 +33,12 @@ ze
 
 Project layout
 --------------
+```
 ├── ze.c       Source code
 ├── LICENSE    License for source
 ├── Makefile   Makefile for installation
 └── README.md  README for info
+```
 
 How to use
 -----------

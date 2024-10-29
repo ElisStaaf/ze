@@ -1,6 +1,6 @@
 # ZE - Zen Explorer
 [![Build](https://img.shields.io/badge/Build%20(Fedora)-passing-2a7fd5?logo=fedora&logoColor=2a7fd5&style=for-the-badge)](https://github.com/ElisStaaf/ze)
-[![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen?style=for-the-badge)](https://github.com/ElisStaaf/ze)
+[![Version](https://img.shields.io/badge/Version-1.0.0-2dd245?style=for-the-badge)](https://github.com/ElisStaaf/ze)
 [![Lang](https://img.shields.io/badge/Lang-C-lightgrey?logo=c&style=for-the-badge)](https://github.com/ElisStaaf/ze)  
 ZE is a file explorer that runs in the terminal. It aims at making your file exploring in the terminal as pleasant as possible! It
 *also* runs on the C standard library, no depedencies here!

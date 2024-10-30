@@ -9,6 +9,7 @@ Requirements
 ------------
 * C compiler <[https://gcc.gnu.org/install/](https://gcc.gnu.org/install/)>
 * Make <[https://www.gnu.org/software/make/](https://www.gnu.org/software/make/)>
+* CMake <[https://cmake.org/download/](https://cmake.org/download/)>
 * Git or Github CLI (optional) <[https://git-scm.com/downloads](https://git-scm.com/downloads)> <[https://github.com/cli/cli#installation](https://github.com/cli/cli#installation)>
 
 Install
@@ -27,7 +28,8 @@ curl https://github.com/ElisStaaf/ze/blob/main/{ze.c,LICENSE,README.md,Makefile,
 After installing it in the ~/ze directory, enter and make an install to your system:
 ```bash
 cd ~/ze
-sudo make install
+cmake .
+sudo make
 ```
 You can delete the ~/ze directory at this point. Anyway, you can now open the explorer by using the `ze` command in your shell:
 ```bash

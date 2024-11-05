@@ -11,7 +11,7 @@ ZE - Zen Explorer
    :target: https://github.com/ElisStaaf/ze
 
 ZE is a file explorer that runs in the terminal. It aims at making your file exploring in the terminal as
-pleasant as possible! It *also* runs on the Rust language standard library, no depedencies here!
+pleasant as possible!
 
 Requirements
 ------------

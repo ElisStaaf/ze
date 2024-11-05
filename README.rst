@@ -6,16 +6,16 @@ ZE - Zen Explorer
 .. image:: https://img.shields.io/badge/Version-1.0.0-2dd245?style=for-the-badge
    :alt: Version = 1.0.0
    :target: https://github.com/ElisStaaf/ze
-.. image:: https://img.shields.io/badge/Lang-C-lightgrey?logo=c&style=for-the-badge
-   :alt: Language = C
+.. image:: https://img.shields.io/badge/Lang-Rust-d4582b?logo=rust&style=for-the-badge
+   :alt: Language = Rust
    :target: https://github.com/ElisStaaf/ze
 
-ZE is a file explorer that runs in the terminal. It aims at making your file exploring in the terminal as pleasant as possible! It
-*also* runs on the C standard library, no depedencies here!
+ZE is a file explorer that runs in the terminal. It aims at making your file exploring in the terminal as
+pleasant as possible! It *also* runs on the Rust language standard library, no depedencies here!
 
 Requirements
 ------------
-* `gcc`_ (or any other C compiler)
+* `rust`_
 * `make`_
 * `cmake`_
 * `git`_ or `gh`_
@@ -64,7 +64,7 @@ Appearance
 
 How to use
 -----------
-When ZE is opened, you will be greeted with the *classic* tcsh ``%`` prompt. It operates by using "keys" for controlling the file system.
+When ZE is opened, you will be greeted with the *classic* tcsh `%` prompt. It operates by using "keys" for controlling the file system.
 These are the keys and their respective commands:
 
 * 1: View files
@@ -74,12 +74,12 @@ These are the keys and their respective commands:
 * 5: Run custom command
 * 6: Exit explorer
 
-With some commands, you will be asked for further input. That's when the ``>`` prompt appears. If you get an error, it will
-be prefixed with ``[ERROR]:`` & if an info message appears, it will be prefixed with ``[INFO]:``.  
+With some commands, you will be asked for further input. That's when the `>` prompt appears. If you get an error, it will
+be prefixed with `[ERROR]:` & if an info message appears, it will be prefixed with `[INFO]:`.  
   
 So yeah, enjoy the project!
 
-.. _`gcc`: https://gcc.gnu.org/install
+.. _`rust`: https://www.rust-lang.org/tools/install
 .. _`make`: https://www.gnu.org/software/make
 .. _`cmake`: https://cmake.org/download
 .. _`git`: https://git-scm.com/downloads

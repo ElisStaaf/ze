@@ -1,0 +1,11 @@
+[package]
+name = "ze"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+inline_colorization = "0.1.6"
+
+[[bin]]
+name = "ze"
+path = "src/ze.rs"

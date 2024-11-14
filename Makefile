@@ -9,4 +9,4 @@ BIN = /usr/bin/ze
 
 $(BIN):
 	$(RUSTC) $(SRC)
-	$(MVTOOOL) $(TMP) $(BIN)
+	$(MVTOOL) $(TMP) $(BIN)

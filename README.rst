@@ -17,7 +17,6 @@ Requirements
 ------------
 * `rust`_
 * `make`_
-* `cmake`_
 * `git`_ or `gh`_
 
 Install
@@ -37,7 +36,6 @@ After installing it in the ~/ze directory, enter and make an install to your sys
 .. code:: bash
 
    cd ~/ze
-   cmake .
    sudo make
 
 You can delete the ~/ze directory at this point. Anyway, you can now open the explorer by using the `ze` command in your shell:
@@ -81,6 +79,5 @@ So yeah, enjoy the project!
 
 .. _`rust`: https://www.rust-lang.org/tools/install
 .. _`make`: https://www.gnu.org/software/make
-.. _`cmake`: https://cmake.org/download
 .. _`git`: https://git-scm.com/downloads
 .. _`gh`: https://github.com/cli/cli#installation

@@ -1,10 +1,12 @@
 all: $(BIN)
 
-RUSTC  = rustc
-RFLAGS = -o
+RUSTC  = cargo build
+MVTOOL = mv
 
 SRC = src/*.rs
+TMP = target/debug/ze
 BIN = /usr/bin/ze
 
 $(BIN):
-	$(RUSTC) $(RFLAGS) $(BIN) $(SRC)
+	$(RUSTC) $(SRC)
+	$(MVTOOOL) $(TMP) $(BIN)

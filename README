@@ -1,0 +1,63 @@
+ZE: Zen Explorer
+================
+ZE is a file explorer that runs in the terminal. It aims at making your file exploring in the terminal as
+pleasant as possible!
+
+Requirements
+------------
+* https://www.rust-lang.org/tools/install
+* https://www.gnu.org/software/make
+* https://git-scm.com/downloads or https://github.com/cli/cli#installation
+
+Install
+-------
+To install, simply:
+
+    # Git
+    git clone https://github.com/ElisStaaf/ze ~/ze
+
+    # Gh
+    gh repo clone ElisStaaf/ze ~/ze
+
+After installing it in the ~/ze directory, enter and make an install to your system:
+
+    cd ~/ze
+    sudo make
+
+You can delete the ~/ze directory at this point. Anyway, you can now open the explorer by using the `ze` command in your shell:
+
+    ze
+
+Appearance
+----------
+    ===================================
+    |       THE ZE FILE EXPLORER      |
+    ===================================
+    | 1. View files                   |
+    | 2. Change directory             |
+    | 3. Create file                  |
+    | 4. Delete file                  |
+    | 5. Run custom command           |
+    | 6. Exit                         |
+    ===================================
+    %
+
+
+How to use
+-----------
+When ZE is opened, you will be greeted with the *classic* tcsh "%" prompt.
+It operates by using "keys" for controlling the file system.
+These are the keys and their respective commands:
+
+* 1: View files
+* 2: Change directory
+* 3: Create file
+* 4: Delete file
+* 5: Run custom command
+* 6: Exit explorer
+
+With some commands, you will be asked for further input. That's when the ">" prompt appears.
+If you get an error, it will be prefixed with "[ERROR]:" & if an info message appears, it
+will be prefixed with "[INFO]:".  
+  
+So yeah, enjoy the project!
